@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">OTP</string>
+    <string name="sign_using_registration">Sign In Using Mobile No</string>
+    <string name="sign_using_mobile">Sign In Using Mobile No.</string>
+    <string name="enter_mobile_no">Enter Mobile No</string>
+</resources>

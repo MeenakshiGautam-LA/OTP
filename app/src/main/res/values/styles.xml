@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/app_primary_text_color</item>
+    </style>
+
+
+    <style name="roboto_medium" parent="Widget.AppCompat.TextView">
+
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="roboto_regular" parent="Widget.AppCompat.TextView">
+
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="roboto_light" parent="Widget.AppCompat.TextView">
+
+        <item name="android:fontFamily">@font/roboto_light</item>
+    </style>
+
+    <style name="roboto_bold" parent="Widget.AppCompat.TextView">
+
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+
+    <style name="roboto_italic" parent="Widget.AppCompat.TextView">
+
+        <item name="android:fontFamily">@font/roboto_italic</item>
+    </style>
+
+    <style name="TextLabel_1" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/app_primary_text_color</item>
+        <item name="android:textSize">12sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#333333B3</item>
+        <item name="colorControlNormal">#333333B3</item>
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+
+
+
+</resources>
